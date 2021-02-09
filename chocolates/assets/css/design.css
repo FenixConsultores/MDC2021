@@ -1,0 +1,127 @@
+.container-notification{	
+	position: fixed;
+	top: 10px;
+	right: 0px;	
+}
+.msg-dialog{
+	position: relative;	
+	padding: 10px;
+	border-radius: 5px;	
+	display: flex;
+	max-width:300px;
+	right: 10px;
+	margin-top: 5px;
+}
+.msg-close{
+	position: absolute;
+	color: white;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+.msg-content{
+	padding: 0 0 0 5px;
+	/*width: 80%;*/
+}
+.msg-title{
+	color: white;
+	font-weight: bold;
+}
+.msg-body{
+	color: white;
+}
+.msg-success{
+	background-color: #28a745;	
+}
+.msg-danger{
+	background-color: #dc3545;
+}
+.msg-info{
+	background-color: #17a2b8;	
+}
+.msg-warning{
+	background-color: #ffc107;	
+}
+.success-icon::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+	content: '\f058';
+	font-size: 30px;	
+	color: white;
+}
+.danger-icon::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+	content: '\f057';
+	font-size: 30px;	
+	color: white;
+}
+.info-icon::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	content: '\f05a';
+	font-size: 30px;	
+	color: white;
+}
+.warning-icon::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	content: '\f071';
+	font-size: 30px;	
+	color: white;
+}
+@-webkit-keyframes entrada{
+	0%{top: -90px;}
+	10%{top: -80px;}
+	20%{top: -70px;}
+	35%{top: -60px;}
+	40%{top: -50;}
+	50%{top: -40px;}
+	60%{top: -30px;}
+	70%{top: -20px;}
+	80%{top: -10px;}
+	100%{top: -0px;}
+}
+@keyframes entrada{
+	0%{top: -90px;}
+	10%{top: -80px;}
+	20%{top: -70px;}
+	35%{top: -60px;}
+	40%{top: -50;}
+	50%{top: -40px;}
+	60%{top: -30px;}
+	70%{top: -20px;}
+	80%{top: -10px;}
+	100%{top: -0px;}		
+}
+@keyframes salida{
+	0%{right: -0px;}
+	10%{right: -30px;}
+	20%{right: -60px;}
+	35%{right: -90px;}
+	40%{right: -120;}
+	50%{right: -150px;}
+	60%{right: -180px;}
+	70%{right: -210px;}
+	80%{right: -240px;}
+	80%{right: -270px;}
+	100%{right: -300px;}
+}
+/*Alert login*/
+.alert-login{
+	position: relative;
+	display: none;
+}
+.alert-login > .hide-alert{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+@media (max-width: 576px){
+	.msg-dialog{
+		width: 100%;
+	}
+}
+

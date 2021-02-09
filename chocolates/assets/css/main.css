@@ -1,0 +1,1215 @@
+*{
+
+
+	color:rgba(112,112,112,1);
+
+
+}
+
+
+img{
+
+
+	width: 100%;
+
+
+}
+
+
+#bodyHome{
+    background-image: url('../img/various/MT1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+#linkIngreso{
+
+
+	position: absolute;
+
+
+	top: 10px;
+
+
+	right: 20px;
+
+
+	font-size: 20px;
+
+
+	color: rgba(208,63,142,1);
+
+
+	font-weight: bold;
+
+
+}
+
+
+#linkIngreso span{
+
+
+	color: rgba(208,63,142,1);
+
+
+}
+
+
+#row-personalizado{
+
+
+	margin-top: 20px;
+
+
+	background-color: rgba(255,255,255,0.9);
+
+
+}
+
+
+a{
+
+
+	text-decoration: none !important;
+
+
+}
+
+
+header
+
+
+.pedido{
+
+
+	margin-top: 10px;
+
+
+}
+
+
+.fa-heart{
+
+
+	color: white;
+
+
+	position: absolute;
+
+
+	right: 30px;
+
+
+	font-size: 1.5em;
+
+
+}
+
+
+.logo{
+
+
+	margin-top: 100px;
+
+
+	text-align: center;
+
+
+}
+
+
+.logo img{
+
+
+	width: 90%;
+
+
+}
+
+
+.appendSearch .searchInputGroup{
+
+
+	border: 1px solid rgba(208,63,142,1);
+
+
+}
+
+
+.searchInputGroup{
+
+
+	background-color: rgba(208,63,142,1);
+
+
+}
+
+
+.fa-search{
+
+
+	color: white;
+
+
+}
+
+
+.pedido .alert{
+
+
+	background-color: #D03E8E;
+
+
+	color: rgba(255,255,255,1);	
+
+
+	position: relative;
+
+
+}
+
+
+.pedido > .alert,
+
+
+.seguimiento .alert{
+
+
+	border-radius: 0px;
+
+
+	padding: 20px 30px 20px 30px !important;
+
+
+}
+
+
+#cont-bar{
+
+
+	background-color: #fafafa;
+
+
+}
+
+
+.alert button{
+
+
+	color: black;	
+
+
+}
+
+
+/*Login seguimiento*/
+
+
+.bodySeguimiento{
+
+
+	background-image: url('../img/various/MT2.png');
+
+
+	background-repeat: no-repeat;
+
+
+	background-size: cover;		
+
+
+}
+
+
+#headerHome{
+
+
+	max-width: 500px;
+
+
+	margin: auto;
+
+
+}
+
+
+#sectionHome{
+
+
+	max-width: 500px;
+
+
+	margin: auto;
+
+
+}
+
+
+#headerLogin{
+
+
+	background-color: white;
+
+
+}
+
+
+#headerLogin img{
+
+
+	width: 150px;
+
+
+}
+
+
+.conten{
+
+
+	padding-top: 50px;
+
+
+}
+
+
+.form-signin{
+
+
+	max-width: 330px;
+
+
+	padding: 15px;
+
+
+	margin: auto;
+
+
+}
+
+
+.conten{
+
+
+	height: 100%;
+
+
+	position: relative;
+
+
+}
+
+
+.form-signin{
+
+
+	border: 1px solid black;
+
+
+}
+
+
+/*seguimiento*/
+
+
+.bodySeguimiento header{
+
+
+	background-color: rgba(255,255,255,0.8);
+
+
+}
+
+
+.dropdown-menu{
+
+
+	border-radius: 0px;
+
+
+	cursor: pointer;
+
+
+}
+
+
+#out{
+
+
+	margin-top: 30px;
+
+
+	text-align: right;
+
+
+}
+
+
+#out a{
+
+
+	text-decoration: none;
+
+
+}
+
+
+.product{
+
+
+	padding: 10px 0 10px 0;
+
+
+}
+
+
+.row .progress-step{
+
+
+	width: 100%;
+
+
+	padding-left: 0;
+
+
+}
+
+
+.headerSeguimiento div div a img{
+
+
+	width: 150px;
+
+
+}
+
+
+.headerSeguimiento{
+
+
+	position: relative;
+
+
+}
+
+
+#btnBack{
+
+
+	position: absolute;
+
+
+	font-size: 30px;	
+
+
+	top: 20px;
+
+
+	left: 5px;
+
+
+}
+
+
+#btnBack span{
+
+
+	color: rgba(208,63,142,1);
+
+
+}
+
+
+.textSeguimiento{
+
+
+	top: 15px;
+
+
+}
+
+
+/*barra de progreso paso a paso*/
+
+
+.progress-step{
+
+
+	margin-top: 10px;
+
+
+}
+
+
+.progress-step li{
+
+
+	list-style-type: none;
+
+
+	float: left;
+
+
+	width: 33.33%;
+
+
+	position: relative;
+
+
+	text-align: center;
+
+
+	font-weight: bold;	
+
+
+}
+
+
+.progress-step li::before{
+
+
+	font-family: 'Font Awesome 5 Free';
+
+
+	content: '\f00c';
+
+
+	color: #ddd;
+
+
+	background-color: white;
+
+
+	width: 40px;
+
+
+	height: 40px;	
+
+
+	line-height: 30px;
+
+
+	border: 6px solid #ddd;
+
+
+	display: block;
+
+
+	text-align: center;
+
+
+	margin: 0 auto 10px auto;
+
+
+	border-radius: 50%;	
+
+
+	position: relative;
+
+
+	z-index: 2 !important;
+
+
+}
+
+
+.progress-step li::after{
+
+
+	content: '';
+
+
+	position: absolute;
+
+
+	width: 100%;
+
+
+	height: 6px;
+
+
+	background-color: #ddd;
+
+
+	top: 17px;	
+
+
+	left: -45%;
+
+
+	z-index: 1;
+
+
+}
+
+
+.progress-step li:first-child::after{
+
+
+	content: none;
+
+
+}
+
+
+.progress-step li.activo{
+
+
+	color: #28a745;	
+
+
+}
+
+
+.progress-step li.activo::before{
+
+
+	background-color: white;
+
+
+	border-color: #28a745;
+
+
+	color: #28a745;	
+
+
+}
+
+
+.progress-step li.activo::after{
+
+
+	background-color: #28a745;	
+
+
+}
+
+
+/*Seguimiento*/
+
+
+.containerPay{		
+
+
+	/*border: 2px solid #ddd;	*/
+
+
+	margin-top: 10px;
+
+
+}
+
+
+.containerPay p{
+
+
+	margin-bottom: 0;
+
+
+}
+
+
+/*mostrar imagen descripcion*/
+
+
+.searchInputGroup{
+
+
+	cursor: pointer;
+
+
+}
+
+
+/*AYUDA*/
+
+
+#colHelp{
+
+
+	margin: auto;
+
+
+}
+
+
+#btnHelp{
+
+
+	margin: auto;
+
+
+}
+
+
+#btnHelp div.contHelp{
+
+
+	padding: 0;
+
+
+}
+
+
+#btnHelp a{
+
+
+	border-radius: 0;
+
+
+	background-color: rgb(249,249,249,1) !important;
+
+
+	border: 1px solid rgba(217,217,217,1);
+
+
+}
+
+
+.loadingFile{
+
+
+	background-color: rgba(0,0,0,0.8);
+
+
+	position: fixed;
+
+
+	width: 100%;
+
+
+	height: 100%;	
+
+
+	top: 0;	
+
+
+	z-index: 5;
+
+
+	text-align: center;
+
+
+	display: none;
+
+
+}
+
+
+.loadingFile img{
+
+
+	width: 150px;	
+
+
+}
+
+
+.innerLoading{
+
+
+	position: relative;
+
+
+	top: 50%;
+
+
+	transform: translate(0,-50%);
+
+
+}
+
+
+.innerLoading h5{
+
+
+	color: white;
+
+
+}
+
+
+.infoTxtPay{
+
+
+	text-align: right;
+
+
+}
+
+
+#underLine::after{
+
+
+	content: "";
+
+
+	position: absolute;
+
+
+	width:250px;
+
+
+	height: 1px; 
+
+
+	background-color: rgba(112,112,112,1);
+
+
+	top: 24px;
+
+
+	transform: translate(-50%);
+
+
+}
+
+
+
+
+
+/* seguimiento */
+
+
+.card-buy{
+
+
+	background-color: rgba(255,255,255,1);
+
+
+	padding: 10px;
+
+
+	margin-top: 10px;
+
+
+	border: 1px solid #ddd;
+
+
+}
+
+
+.content-description{
+
+
+	position: relative;
+
+
+}
+
+
+.content-description a{
+
+
+	position: relative;
+
+
+	right: 0;
+
+
+}
+
+
+.txt-desctiption{
+
+
+	margin: auto;	
+
+
+}
+
+
+.txt-desctiption:first-child{
+
+
+	color: black;
+
+
+}
+
+
+.more-datails{
+
+
+	position: absolute;
+
+
+	top: 3px;
+
+
+	right: 20px;
+
+
+	cursor: pointer;
+
+
+}
+
+
+.link-details{
+
+
+	margin-top: 15px;
+
+
+	border-top: 1px solid #ddd;
+
+
+	text-align: center;
+
+
+	padding: 20px;
+
+
+}
+
+
+
+
+
+.tbCostProduct{	
+
+
+	max-width: 350px;
+
+
+	border: 2px solid #ddd;
+
+
+	margin: auto;
+
+
+}
+
+
+.tbCostProduct thead{
+
+
+	text-align: center;
+
+
+}
+
+
+.tbCostProduct tbody tr td:first-child{
+
+
+	text-align: right;
+
+
+}
+
+
+.badge{
+
+
+	border-radius: 0;
+
+
+}
+
+
+/* centar contenido preview */
+
+
+.upload-baucher{
+
+
+	text-align: center;
+
+
+}
+
+
+.preview-baucher{
+
+
+	border-style: dotted;
+
+
+	width: 80%;
+
+
+	margin: auto;
+
+
+}
+
+
+.progresoBaucher{
+
+
+	width: 80%;
+
+
+	margin: 5px auto auto auto;	
+
+
+}
+
+
+.progresoBaucher .progress{
+
+
+	border-radius: 0;
+
+
+}
+
+
+.customiseFile{
+
+
+	margin-top: 5px;
+
+
+	background-color: #0062cc;
+
+
+	color: white;
+
+
+	padding: 7px;
+
+
+	cursor: pointer;	
+
+
+}
+
+
+.customiseFile:hover{
+
+
+	opacity: 0.8;
+
+
+	border: 1px solid #ddd;	
+
+
+}
+
+
+.baucherSuccess{
+
+
+	max-width: 300px;
+
+
+	margin: auto;
+
+
+	text-align: center;
+
+
+}
+
+
+.baucherSuccess span{
+
+
+	color: #28a745;
+
+
+}
+
+
+.seguimiento-box{
+
+
+	background-color: rgba(255,255,255,1);
+
+
+	margin-top: 10px;
+
+
+	border: 1px solid #ddd;
+
+
+	padding: 10px;
+
+
+}
+
+
+/* modal image baucher */
+
+
+.imgBaucher{
+
+
+	display: none;
+
+
+	position: fixed;
+
+
+	z-index: 2;
+
+
+	padding-top: 50px;
+
+
+	left: 0;
+
+
+	top: 0;
+
+
+	width: 100%;
+
+
+	height: 100%;
+
+
+	overflow: auto;
+
+
+	background-color: rgba(0,0,0,0.9);
+
+
+}
+
+
+.baucherContent{
+
+
+	margin: auto;
+
+
+	display: block;
+
+
+	width: 80%;
+
+
+	max-width: 700px;
+
+
+	animation-name: zoom;
+
+
+	animation-duration: 0.7s;	
+
+
+}
+
+
+.closeModalImg{
+
+
+	position: absolute;
+
+
+    top: 15px;
+
+
+    right: 35px;
+
+
+    color: #f1f1f1;
+
+
+    font-size: 40px;
+
+
+    font-weight: bold;
+
+
+    transition: 0.3s;
+
+
+    cursor: pointer;
+
+
+}
+
+
+@keyframes zoom{
+
+
+	from{transform: scale(0)}
+
+
+	to{transform: scale(1)}
+
+
+}
+
+
+/* modulo detail */
+
+
+.tb-detail,
+
+
+.detail-pago,
+
+
+.location-delivery{
+
+
+	background-color: white;
+
+
+	padding: 10px;
+
+
+	border: 1px solid #ddd;
+
+
+}
+
+
+.detail-pago,
+
+
+.location-delivery{
+
+
+	margin-top: 10px;
+
+
+}
+
+
+/* responsive */
+
+
+@media (min-width: 768px){
+
+
+	.link-details{
+
+
+		margin-top: auto;
+
+
+		border-top: none;		
+
+
+		padding: 0;
+
+
+	}
+
+
+	.preview-baucher{
+
+
+		width: 40%;
+
+
+	}
+
+
+	.progresoBaucher{
+
+
+		width: 40%;		
+
+
+	}
+
+
+}
